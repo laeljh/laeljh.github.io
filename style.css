@@ -1,0 +1,93 @@
+
+
+.entry, .menu  
+{   
+    align-self: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(59, 59, 59);
+    font-size: 100%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu
+{
+    max-width: 20%;
+}
+
+.headers > h1, h2, h3, h4, h5, h6
+{
+    background-color: aquamarine;
+}
+
+.headers h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover
+{
+    color: white;
+    background-color: rgb(59, 118, 99);
+}
+
+.text > p
+{
+    line-height: 100%;
+}
+.text > p:hover
+{
+    background-color: aquamarine;
+    color: black;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.text > p:active
+{
+    color: white;
+    background-color: rgb(59, 118, 99);
+}
+
+.image-miniature > img
+{
+    width: 150px;
+    margin: 30px;
+    align-content: center;
+}
+
+.image-miniature > img:hover
+{
+    width: 150px;
+    background-color: aquamarine;
+    padding: 30px 40px 30px 40px;
+    margin: 0px;
+}
+
+.image-miniature > img:active
+{
+    width: 190px;
+    background-color: rgb(84, 168, 140);
+    padding: 10px 20px 10px 20px;
+}
+
+table 
+{
+    
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th 
+{
+    border: 1px solid rgb(84, 168, 140);
+    padding: 5px;
+    
+}
+
+td 
+{
+    border: 1px dashed rgb(84, 168, 140);
+    padding: 5px;
+}
+
+th,td
+{
+    color: rgb(39, 78, 66);
+}
